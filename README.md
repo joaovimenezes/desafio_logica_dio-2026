@@ -1,19 +1,13 @@
-# Desafio de Criação de uma Calculadora de Partidas Rankeadas 🧮
+# Desafio de Classificador de Nível de Herói ✨
 Projeto do bootcamp "Blip - Lógica de Programação".
 
 ### Objetivo
-O objetivo do desafio era a criação de uma calculadora de rank, elaborada com uma função que receberia como parâmetro a quantidade de vitórias e derrotas de um jogador, e depois disso retornasse o resultado para uma variável. Esse cálculo deveria ser feito pela subtração de vitórias - derrotas.
+O objetivo do desafio era a criação de  uma variável para o armazenamento do nome e a quantidade de experiência (XP) de um herói, e posteriormente, utilizando uma estrutura de decisão, apresentar o ranqueamento do personagem de acordo com o intervalo de seu XP. Para saída, era necessária uma mensagem com a concatenação do nome e nível do herói.
 
 ### Elaboração ✅
-Nesse projeto foram usadas:
-
-- Função `getRank` para a centralização das funções e exibição da mensagem, com o papel de uma função main. Ela foi elaborada com os parâmetros de **vitórias e derrotas** (wins, losses);
-- Função `calculateRecord` para realização do cálculo do saldo de vitórias, com o parâmetro de **vitórias e derrotas** (wins, losses) e estrutura de decisão para erros;
-- Função `getLevel` com o parâmetro de recorde de vitória (finalRecord) e uma estrutura de decisão "if, else if, else" que estabelece o rank de acordo com o intervalo do saldo de vitórias.
-
-Destaca-se a divisão dessas funções para o armazenamento dos valores retornados em váriaveis, identificação de erros e possíbilidade de manutenção e escalabilidade. 
+A estrutura de decisão escolhida foi a if, else if, else. Minha opção por essa estrutura foi baseada principalmente pela necessidade de trabalhar com intervalos.
 
 ### Como executar o código
 - Na utilização de uma IDE na máquina, instale o node.js;
-- Chame a função `getRank` com dois parâmetros **NUMÉRICOS** para **VITÓRIAS e DERROTAS** respectivamente;
+- Coloque o uma **STRING** para o nome do herói na variavel `nomeHeroi`, e um valor numérico para `xpHeroi`;
 - Execute o comando "node index.js" no terminal da sua IDE.
