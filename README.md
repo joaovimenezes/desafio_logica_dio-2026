@@ -9,5 +9,5 @@ A estrutura de decisão escolhida foi a if, else if, else. Minha opção por ess
 
 ### Como executar o código
 - Na utilização de uma IDE na máquina, instale o node.js;
-- Coloque o uma **STRING** para o nome do herói na variavel `nomeHeroi`, e um valor numérico para `xpHeroi`;
+- Coloque uma **STRING** para o nome do herói na variavel `nomeHeroi`, e um valor numérico para `xpHeroi`;
 - Execute o comando "node index.js" no terminal da sua IDE.
